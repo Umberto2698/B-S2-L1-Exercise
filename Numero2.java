@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Numero2 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in)
+        Scanner input = new Scanner(System.in);
         try {
             System.out.println("Inserisci i km percorsi.");
             double km = Double.parseDouble(input.nextLine());
